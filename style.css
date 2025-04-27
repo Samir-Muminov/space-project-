@@ -1,51 +1,64 @@
-table {
+.welcoming{
+    height: 65px;
     text-align: center;
-    width: 100%;
-    color: white;
+    font-size: 15px;
+    color: purple;
+    border: 3px solid red;
+    background-color: #C9D9FD;
+    border-radius: 50px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+ background-color: #659ACA;
+ color: white;
+ width: 350px;
+ height: 35px;
+ font-size: 25px;
+ border: 1.5px solid #659ACA ;
+}
+.birinchi{
+    width: 95%;
+    height: 40px;
+}
+h1 {
+    font-size: 25px;
+}
+
+.pr {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
     font-size: 20px;
-    border: 1px solid orange;
-    border-collapse: collapse;
 }
-body {
-    background-color: black;
+.images, .video{
+    text-align: center;
 }
-.img {
-    border: 5px solid yellow;
-    height: 400px;
+
+table{
+    margin-left: 150px ;
+    color: white;
+    width: 85%;
+height: 100px;
+text-align: center;
+}
+.green {
+    background-color: green;
+    border: grey;
+}
+.red {
+    background-color: red;
+
+}
+.blue {
+    background-color: blue;
     
 }
-.hi {
-    color: yellow;
-    font-size: 30px;
-    text-align: center;
-}
-p {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-}
-.stars, .planets {
-    color: yellowgreen;
-}
-
-.information, .Mercury, .tabletka {
-    border: 1px solid orange;
-    border-collapse: collapse;
-}
-
-form{
-    text-align: center;
-}
-input{
-    width: 100%;
-    height: 35px;
-    border-radius: 5px;
-}
-
-button {
-    background-color: yellow;
-    border-radius: 15px;
-    font-size: 25px;
-    width: 550px;
-
+.black {
+    background-color: black;
 }
